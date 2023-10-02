@@ -23,6 +23,7 @@ public class Pizza {
     }
 
     public int getPrice(){
+        price+=basePrice+ExtraCheesePrice+ExtraToppingsPrice+TakeAwayPrice;
         return this.price;
     }
 
